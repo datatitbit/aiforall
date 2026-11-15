@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIforAll: A Simple Guide to AI for Beginners</title>
+  <meta name="description" content="A calm, plain-English guide to AI for people who have never used it. Learn what it is, what it can do, and how to start.">
+  <meta property="og:title" content="AIforAll: A Simple Guide to AI for Beginners">
+  <meta property="og:description" content="Plain-English AI help for everyday people. Learn what AI is and try one small thing today.">
+  <meta property="og:type" content="website">
+  <link rel="alternate" type="application/rss+xml" title="AIforAll tips" href="feed.xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Sticky top bar. The button jumps to the signup form on this same page. -->
+  <header class="topbar">
+    <a class="brand" href="#top">AIforAll</a>
+    <a class="btn" href="#signup">Join free</a>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <h1>AI, explained simply.</h1>
+      <p class="lead">No jargon. No pressure. Just a calm guide for people who are new to AI.</p>
+      <a class="btn btn-big" href="#signup">Join free</a>
+    </section>
+
+    <section id="what-is-ai">
+      <h2>What is AI?</h2>
+      <p>AI stands for artificial intelligence. It is a computer program that has learned from a huge amount of writing and pictures.</p>
+      <p>Think of a very well-read helper. You ask a question in everyday words. It writes an answer. It does not "know" things like a person does. It predicts a good reply from what it has seen.</p>
+    </section>
+
+    <section id="what-can-it-do">
+      <h2>What can AI do for you?</h2>
+      <ul class="cards">
+        <li><strong>Write an email.</strong> Tell it who it is for and what you need.</li>
+        <li><strong>Plan your week.</strong> Give it your tasks and it suggests an order.</li>
+        <li><strong>Explain a bill or a form.</strong> Ask it to say it in simple words.</li>
+        <li><strong>Make a shopping list.</strong> Say what meals you plan to cook.</li>
+        <li><strong>Practise a language.</strong> Ask it to chat with you slowly.</li>
+      </ul>
+    </section>
+
+    <section id="how-to-start">
+      <h2>How to start</h2>
+      <ol class="steps">
+        <li>Open a free AI chat tool from a company you trust.</li>
+        <li>Type what you want in plain words, like you would tell a friend.</li>
+        <li>Read the answer. Ask a follow-up if something is unclear.</li>
+      </ol>
+      <div class="try">
+        <h3>Try this now</h3>
+        <p>Copy this into an AI chat:</p>
+        <p class="prompt" id="try-prompt">Explain what AI is in five short sentences, as if I have never used a computer program like this.</p>
+        <button type="button" class="btn btn-small" id="copy-btn">Copy the prompt</button>
+        <span id="copy-msg" class="note" role="status"></span>
+      </div>
+    </section>
+
+    <section id="watch-out">
+      <h2>Things to watch out for</h2>
+      <ul>
+        <li><strong>It can be wrong.</strong> It sometimes sounds sure when it is not. Check anything important.</li>
+        <li><strong>Protect your privacy.</strong> Never share passwords, bank details or ID numbers.</li>
+        <li><strong>Keep your judgment.</strong> Use AI as a helper, not as the final decision-maker.</li>
+      </ul>
+    </section>
+
+    <!-- "Latest tips" is filled in by script.js from content.json. n8n can change the site by editing that file. -->
+    <section id="tips">
+      <h2>Latest tips</h2>
+      <div id="latest-tips" aria-live="polite"><p class="note">Loading tips...</p></div>
+    </section>
+
+    <section id="faq">
+      <h2>Questions people ask</h2>
+      <details><summary>Is AI free to use?</summary><p>Many tools have a free plan with limits. Paid plans usually give more use. Check each tool's own page.</p></details>
+      <details><summary>Will AI take my job?</summary><p>Nobody can say for sure. A good habit is to learn how to use it, so it helps you rather than surprises you.</p></details>
+      <details><summary>Is it safe?</summary><p>It is safe if you are careful. Do not share private details, and check important answers.</p></details>
+      <details><summary>Do I need to be technical?</summary><p>No. If you can send a text message, you can use an AI chat.</p></details>
+      <details><summary>Which tool should I pick?</summary><p>Start with one from a well-known company. Try it for a week before you decide.</p></details>
+    </section>
+
+    <section id="signup" class="signup">
+      <h2>Join free</h2>
+      <p>Get simple AI tips by email. [PLACEHOLDER: how often and what you will send]</p>
+      <form id="signup-form" novalidate>
+        <label for="s-name">Name (optional)</label>
+        <input id="s-name" name="name" type="text" autocomplete="given-name">
+        <label for="s-email">Email</label>
+        <input id="s-email" name="email" type="email" autocomplete="email" required>
+        <!-- Honeypot: people never see this. Bots fill it in, and we ignore those sends. -->
+        <div class="hp" aria-hidden="true"><label for="s-site">Leave this empty</label><input id="s-site" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <button class="btn btn-big" type="submit">Join free</button>
+        <p class="note" id="signup-msg" role="status"></p>
+      </form>
+    </section>
+
+    <section id="feedback">
+      <h2>Tell us what to explain next</h2>
+      <form id="feedback-form" novalidate>
+        <label for="f-msg">Your message</label>
+        <textarea id="f-msg" name="message" rows="4" required></textarea>
+        <label for="f-email">Email (optional)</label>
+        <input id="f-email" name="email" type="email" autocomplete="email">
+        <div class="hp" aria-hidden="true"><label for="f-site">Leave this empty</label><input id="f-site" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <button class="btn" type="submit">Send</button>
+        <p class="note" id="feedback-msg" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; AIforAll. Contact: [PLACEHOLDER: contact email]</p>
+    <p class="note">This guide is general information only.</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

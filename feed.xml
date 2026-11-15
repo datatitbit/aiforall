@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AIforAll: Latest tips</title>
+    <link>https://aiforall.onrender.com/</link>
+    <description>Simple AI tips for beginners.</description>
+    <item><title>Ask in plain words</title><link>https://aiforall.onrender.com/#tip-1</link><guid>aiforall-tip-1</guid><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><description>You do not need special commands. Write your question the way you would say it to a friend.</description></item>
+    <item><title>Give it a little context</title><link>https://aiforall.onrender.com/#tip-2</link><guid>aiforall-tip-2</guid><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><description>Say who the answer is for and what you want.</description></item>
+    <item><title>Check what matters</title><link>https://aiforall.onrender.com/#tip-3</link><guid>aiforall-tip-3</guid><pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate><description>AI can be wrong. For health, money or legal questions, check with a trusted source.</description></item>
+  </channel>
+</rss>

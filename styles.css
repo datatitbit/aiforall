@@ -1,0 +1,41 @@
+/* AIforAll styles. Palette: deep teal #1F5F5B, cream #FBF8F1, amber #F0B44C, ink #1B1B1B */
+:root{--teal:#1F5F5B;--cream:#FBF8F1;--amber:#F0B44C;--ink:#1B1B1B;--line:#D9D2C3}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font:18px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--cream)}
+.skip{position:absolute;left:-999px;top:0;background:#fff;padding:.5rem 1rem;z-index:20}
+.skip:focus{left:8px;top:8px}
+.topbar{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:.6rem 1rem;background:var(--teal)}
+.brand{color:#fff;font-weight:700;font-size:1.25rem;text-decoration:none}
+main{max-width:720px;margin:0 auto;padding:0 1rem}
+section{padding:2rem 0;border-bottom:1px solid var(--line)}
+.hero{text-align:center;padding:3rem 0}
+h1{font-size:2.2rem;line-height:1.2;margin:.2rem 0 .8rem;color:var(--teal)}
+h2{font-size:1.6rem;line-height:1.25;color:var(--teal);margin:0 0 .8rem}
+h3{margin:.2rem 0 .5rem}
+.lead{font-size:1.2rem}
+.btn{display:inline-block;background:var(--amber);color:var(--ink);font:inherit;font-weight:700;border:2px solid var(--ink);border-radius:8px;padding:.55rem 1.1rem;text-decoration:none;cursor:pointer;min-height:44px}
+.topbar .btn{border-color:var(--amber)}
+.btn-big{font-size:1.15rem;padding:.7rem 1.6rem}
+.btn-small{font-size:1rem;padding:.4rem .9rem}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #0B3D91;outline-offset:2px}
+.cards,.steps{padding-left:1.2rem}
+.cards li,.steps li,section ul li{margin:.5rem 0}
+.try{background:#fff;border:2px solid var(--teal);border-radius:10px;padding:1rem;margin-top:1.2rem}
+.prompt{background:var(--cream);border-left:5px solid var(--amber);padding:.7rem .9rem;margin:.6rem 0}
+.tip{background:#fff;border:1px solid var(--line);border-radius:10px;padding:.9rem 1rem;margin:.7rem 0}
+.tip h3{margin:0 0 .3rem}
+.tip .date{font-size:.9rem;color:#555}
+details{background:#fff;border:1px solid var(--line);border-radius:8px;padding:.6rem .9rem;margin:.6rem 0}
+summary{cursor:pointer;font-weight:600}
+label{display:block;font-weight:600;margin:.8rem 0 .25rem}
+input,textarea{width:100%;font:inherit;padding:.6rem;border:2px solid #777;border-radius:8px;background:#fff}
+.signup{background:#fff;border-radius:12px;padding:1.5rem 1.2rem;margin:1.5rem 0;border:2px solid var(--teal)}
+form .btn{margin-top:1rem}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.note{font-size:.95rem;color:#444}
+.ok{color:#14532D;font-weight:600}
+.err{color:#8A1C1C;font-weight:600}
+footer{text-align:center;padding:2rem 1rem;color:#333}
+@media (min-width:700px){h1{font-size:2.8rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

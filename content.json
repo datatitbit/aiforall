@@ -1,0 +1,7 @@
+{
+  "tips": [
+    { "id": 1, "title": "Ask in plain words", "text": "You do not need special commands. Write your question the way you would say it to a friend.", "date": "2026-11-15" },
+    { "id": 2, "title": "Give it a little context", "text": "Say who the answer is for and what you want. For example: 'a short email to my landlord about a broken tap'.", "date": "2026-11-15" },
+    { "id": 3, "title": "Check what matters", "text": "AI can be wrong. For health, money or legal questions, check with a trusted source or a professional.", "date": "2026-11-15" }
+  ]
+}
