@@ -69,6 +69,28 @@
       </ul>
     </section>
 
+    <!-- "AI in brief": three cards (quote, tip, everyday use case) filled from content.json ("brief" part). n8n can refresh them any time. -->
+    <section id="ai-in-brief">
+      <h2>AI in brief</h2>
+      <div class="brief-grid">
+        <article class="brief-card" id="ai-quote">
+          <h3>AI quote</h3>
+          <blockquote id="quote-text">Loading...</blockquote>
+          <p class="who" id="quote-who"></p>
+        </article>
+        <article class="brief-card" id="ai-tip">
+          <h3>AI tip</h3>
+          <p class="strong" id="tip-title"></p>
+          <p id="tip-text"></p>
+        </article>
+        <article class="brief-card" id="ai-use-case">
+          <h3>AI everyday use case</h3>
+          <p class="strong" id="usecase-title"></p>
+          <p id="usecase-text"></p>
+        </article>
+      </div>
+    </section>
+
     <!-- "Latest tips" is filled in by script.js from content.json. n8n can change the site by editing that file. -->
     <section id="tips">
       <h2>Latest tips</h2>
