@@ -58,6 +58,7 @@ fetch("comments.json", { cache: "no-store" })
 function wireForm(formId, msgId, urlKey, needs) {
   var form = document.getElementById(formId);
   var msg = document.getElementById(msgId);
+  if (!form || !msg) { return; } // if a form is not on the page, skip it quietly
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     msg.className = "note"; msg.textContent = "";
@@ -84,7 +85,6 @@ function wireForm(formId, msgId, urlKey, needs) {
   });
 }
 wireForm("signup-form", "signup-msg", "signupWebhook", "email");
-wireForm("feedback-form", "feedback-msg", "feedbackWebhook", "message");
 wireForm("comment-form", "comment-msg", "commentWebhook", "comment");
 
 // 3) Copy the "Try this now" prompt.
