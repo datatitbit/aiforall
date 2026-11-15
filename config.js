@@ -10,5 +10,6 @@
 */
 window.AIFORALL_CONFIG = {
   signupWebhook:   "http://localhost:5678/webhook-test/aiforall-signup",
-  feedbackWebhook: "http://localhost:5678/webhook-test/aiforall-feedback"
+  feedbackWebhook: "http://localhost:5678/webhook-test/aiforall-feedback",
+  commentWebhook:  "http://localhost:5678/webhook-test/aiforall-comment"
 };

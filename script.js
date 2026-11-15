@@ -1,4 +1,4 @@
-/* AIforAll script. Three small jobs: load tips, send forms, copy the prompt. */
+/* AIforAll script. Small jobs: load tips and comments, send forms, copy the prompt. */
 
 // 1) Load "Latest tips" from content.json (n8n can edit that file to change the page).
 fetch("content.json", { cache: "no-store" })
@@ -34,6 +34,26 @@ function renderBrief(t) {
   setText("usecase-text", t.useCase && t.useCase.text);
 }
 
+// 1c) List approved comments from comments.json (each one has: name, text, date).
+fetch("comments.json", { cache: "no-store" })
+  .then(function (r) { return r.json(); })
+  .then(function (list) {
+    var box = document.getElementById("comment-list");
+    box.innerHTML = "";
+    if (!list.length) { box.innerHTML = '<p class="note">No comments yet. Be the first.</p>'; return; }
+    list.forEach(function (c) {
+      var d = document.createElement("article"); d.className = "tip";
+      var h = document.createElement("h3"); h.textContent = c.name || "Reader";
+      var p = document.createElement("p"); p.textContent = c.text;
+      var t = document.createElement("span"); t.className = "date"; t.textContent = c.date || "";
+      d.appendChild(h); d.appendChild(p); d.appendChild(t);
+      box.appendChild(d);
+    });
+  })
+  .catch(function () {
+    document.getElementById("comment-list").innerHTML = '<p class="note">Comments could not load right now.</p>';
+  });
+
 // 2) Send a form as JSON to an n8n webhook (a webhook is a web address n8n listens on).
 function wireForm(formId, msgId, urlKey, needs) {
   var form = document.getElementById(formId);
@@ -65,6 +85,7 @@ function wireForm(formId, msgId, urlKey, needs) {
 }
 wireForm("signup-form", "signup-msg", "signupWebhook", "email");
 wireForm("feedback-form", "feedback-msg", "feedbackWebhook", "message");
+wireForm("comment-form", "comment-msg", "commentWebhook", "comment");
 
 // 3) Copy the "Try this now" prompt.
 document.getElementById("copy-btn").addEventListener("click", function () {

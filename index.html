@@ -97,6 +97,22 @@
       <div id="latest-tips" aria-live="polite"><p class="note">Loading tips...</p></div>
     </section>
 
+    <!-- Comments: approved comments are listed from comments.json. New comments are sent to n8n (a webhook), which can check them and add them to that file. -->
+    <section id="comments">
+      <h2>Comments</h2>
+      <div id="comment-list" aria-live="polite"><p class="note">Loading comments...</p></div>
+      <form id="comment-form" novalidate>
+        <label for="c-name">Name (optional)</label>
+        <input id="c-name" name="name" type="text" autocomplete="given-name" maxlength="60">
+        <label for="c-text">Your comment</label>
+        <textarea id="c-text" name="comment" rows="3" maxlength="500" required></textarea>
+        <div class="hp" aria-hidden="true"><label for="c-site">Leave this empty</label><input id="c-site" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <button class="btn" type="submit">Post comment</button>
+        <p class="note">Comments are checked before they appear. Please do not share private details.</p>
+        <p class="note" id="comment-msg" role="status"></p>
+      </form>
+    </section>
+
     <section id="faq">
       <h2>Questions people ask</h2>
       <details><summary>Is AI free to use?</summary><p>Many tools have a free plan with limits. Paid plans usually give more use. Check each tool's own page.</p></details>
