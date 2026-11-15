@@ -122,6 +122,19 @@
       <details><summary>Which tool should I pick?</summary><p>Start with one from a well-known company. Try it for a week before you decide.</p></details>
     </section>
 
+    <!-- Feedback: one question, one box, one button. Sent to n8n (feedbackWebhook in config.js). -->
+    <section id="feedback">
+      <form id="feedback-form" novalidate>
+        <label for="f-text">What should we explain next?</label>
+        <div style="display:flex;gap:.5rem">
+          <input id="f-text" name="feedback" type="text" maxlength="200" style="flex:1;min-width:0" required>
+          <button class="btn btn-small" type="submit">Send</button>
+        </div>
+        <div class="hp" aria-hidden="true"><label for="f-site">Leave this empty</label><input id="f-site" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <p class="note" id="feedback-msg" role="status"></p>
+      </form>
+    </section>
+
     <section id="signup" class="signup">
       <h2>Join free</h2>
       <p>Get simple AI tips by email from Simple Titbit.</p>
