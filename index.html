@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AIforAll: A Simple Guide to AI for Beginners</title>
-  <meta name="description" content="A calm, plain-English guide to AI for people who have never used it. Learn what it is, what it can do, and how to start.">
-  <meta property="og:title" content="AIforAll: A Simple Guide to AI for Beginners">
-  <meta property="og:description" content="Plain-English AI help for everyday people. Learn what AI is and try one small thing today.">
+  <title>AIforAll: The Essentials of AI for Beginners</title>
+  <meta name="description" content="The core basics of AI in plain English: what it is, the main types, everyday uses, how to prompt, and the mistakes to avoid.">
+  <meta property="og:title" content="AIforAll: The Essentials of AI for Beginners">
+  <meta property="og:description" content="The core basics of AI in plain English. No jargon, no pressure.">
   <meta property="og:type" content="website">
   <link rel="alternate" type="application/rss+xml" title="AIforAll tips" href="feed.xml">
   <link rel="stylesheet" href="styles.css">
@@ -22,94 +22,112 @@
 
   <main id="main">
     <section id="top" class="hero">
-      <h1>AI, explained simply.</h1>
-      <p class="lead">No jargon. No pressure. Just a calm guide for people who are new to AI.</p>
-    </section>
-
-    <section id="what-is-ai">
-      <h2>What is AI?</h2>
-      <p>AI stands for artificial intelligence. It is a computer program that has learned from a huge amount of writing and pictures.</p>
-      <p>Think of a very well-read helper. You ask a question in everyday words. It writes an answer. It does not "know" things like a person does. It predicts a good reply from what it has seen.</p>
-    </section>
-
-    <section id="types-of-ai">
-      <h2>Types of AI</h2>
-      <p>Most AI you will meet today is one of four kinds.</p>
-      <ul>
-        <li><strong>Chat AI.</strong> Reads and writes text. Answers questions, drafts emails.</li>
-        <li><strong>Image AI.</strong> Makes or edits pictures from a short description.</li>
-        <li><strong>Voice AI.</strong> Turns speech into text, and text into speech.</li>
-        <li><strong>Recommendation AI.</strong> Suggests videos, songs or products you may like.</li>
+      <h1>The essentials of AI, explained simply.</h1>
+      <p class="lead">Six short parts. By the end you will know the core basics: what AI is, what it can do, how to ask it well, and what to watch out for.</p>
+      <ul class="jump">
+        <li><a href="#what">What</a></li>
+        <li><a href="#types">Types</a></li>
+        <li><a href="#uses">Uses</a></li>
+        <li><a href="#prompting">Prompting</a></li>
+        <li><a href="#pitfalls">Pitfalls</a></li>
+        <li><a href="#agents">Automation</a></li>
       </ul>
     </section>
 
-    <section id="what-can-it-do">
-      <h2>What can AI do for you?</h2>
-      <ul class="cards">
-        <li><strong>Write an email.</strong> Tell it who it is for and what you need.</li>
-        <li><strong>Plan your week.</strong> Give it your tasks and it suggests an order.</li>
-        <li><strong>Explain a bill or a form.</strong> Ask it to say it in simple words.</li>
-        <li><strong>Make a shopping list.</strong> Say what meals you plan to cook.</li>
-        <li><strong>Practise a language.</strong> Ask it to chat with you slowly.</li>
-      </ul>
-    </section>
-
-    <section id="how-to-start">
-      <h2>How to start</h2>
-      <ol class="steps">
-        <li>Open a free AI chat tool from a company you trust.</li>
-        <li>Type what you want in plain words, like you would tell a friend.</li>
-        <li>Read the answer. Ask a follow-up if something is unclear.</li>
-      </ol>
-      <div class="try">
-        <h3>Try this now</h3>
-        <p>Copy this into an AI chat:</p>
-        <p class="prompt" id="try-prompt">Explain what AI is in five short sentences, as if I have never used a computer program like this.</p>
-        <button type="button" class="btn btn-small" id="copy-btn">Copy the prompt</button>
-        <span id="copy-msg" class="note" role="status"></span>
+    <section id="what">
+      <h2><span class="num n1">1</span> What is AI?</h2>
+      <p>AI (artificial intelligence) is a computer program that learned patterns from a huge amount of text, pictures, sound and data. You give it an input. It predicts a useful output.</p>
+      <p>Think of a very well-read helper. It does not "know" things like a person does. It makes a smart guess, and that is why you still check the result.</p>
+      <div class="flow" aria-label="How AI works">
+        <span class="step s1">You ask</span><span class="arrow" aria-hidden="true">&rarr;</span>
+        <span class="step s2">AI predicts</span><span class="arrow" aria-hidden="true">&rarr;</span>
+        <span class="step s3">You check</span>
       </div>
+    </section>
+
+    <section id="types">
+      <h2><span class="num n2">2</span> Common types of AI</h2>
+      <p>The easiest way to sort AI is by what goes in and what comes out.</p>
+      <div class="grid">
+        <article class="card c1"><h3>Text</h3><p>Reads and writes words. Answers, summaries, emails, translations.</p></article>
+        <article class="card c2"><h3>Image</h3><p>Makes or edits pictures from a short description (text to image).</p></article>
+        <article class="card c3"><h3>Video</h3><p>Makes short clips from a description or a picture (text to video).</p></article>
+        <article class="card c4"><h3>Audio</h3><p>Speech to text, text to speech, voices and music.</p></article>
+        <article class="card c5"><h3>Prediction</h3><p>Spots patterns in data. Suggests songs, flags fraud, forecasts sales.</p></article>
+        <article class="card c6"><h3>Agents</h3><p>Do steps for you, like search, write and send, with your approval.</p></article>
+      </div>
+    </section>
+
+    <section id="uses">
+      <h2><span class="num n3">3</span> Common everyday uses</h2>
+      <ul class="chips">
+        <li>Write and polish emails</li>
+        <li>Summarise long documents</li>
+        <li>Explain a bill or form</li>
+        <li>Plan your week or a trip</li>
+        <li>Learn a language</li>
+        <li>Brainstorm ideas</li>
+        <li>Make images for posts</li>
+        <li>Turn a voice note into text</li>
+      </ul>
     </section>
 
     <section id="prompting">
-      <h2>Prompting basics</h2>
-      <p>A prompt is simply what you type to an AI. Clearer words give better answers.</p>
-      <ul>
-        <li><strong>Say who it is for.</strong> "Explain this to a 10-year-old."</li>
-        <li><strong>Give the goal.</strong> Say what you want it for, not just the topic.</li>
-        <li><strong>Add details.</strong> Length, tone and format (a list, three lines).</li>
-        <li><strong>Improve it.</strong> Reply with "shorter" or "simpler" until it fits.</li>
-      </ul>
-    </section>
-
-    <section id="watch-out">
-      <h2>Things to watch out for</h2>
-      <ul>
-        <li><strong>It can be wrong.</strong> It sometimes sounds sure when it is not. Check anything important.</li>
-        <li><strong>Protect your privacy.</strong> Never share passwords, bank details or ID numbers.</li>
-        <li><strong>Keep your judgment.</strong> Use AI as a helper, not as the final decision-maker.</li>
-      </ul>
-    </section>
-
-    <!-- "AI in brief": three cards (quote, tip, everyday use case) filled from content.json ("brief" part). n8n can refresh them any time. -->
-    <section id="ai-in-brief">
-      <h2>AI in brief</h2>
-      <div class="brief-grid">
-        <article class="brief-card" id="ai-quote">
-          <h3>AI quote</h3>
-          <blockquote id="quote-text">Loading...</blockquote>
-          <p class="who" id="quote-who"></p>
-        </article>
-        <article class="brief-card" id="ai-tip">
-          <h3>AI tip</h3>
-          <p class="strong" id="tip-title"></p>
-          <p id="tip-text"></p>
-        </article>
-        <article class="brief-card" id="ai-use-case">
-          <h3>AI everyday use case</h3>
-          <p class="strong" id="usecase-title"></p>
-          <p id="usecase-text"></p>
-        </article>
+      <h2><span class="num n4">4</span> Prompting: how to ask well</h2>
+      <p>A prompt is what you type to an AI. Clear prompts get better answers. A simple framework to remember is <strong>R-T-C-F</strong>:</p>
+      <div class="grid small">
+        <article class="card c1"><h3>R: Role</h3><p>Who should it act as?</p></article>
+        <article class="card c2"><h3>T: Task</h3><p>What exactly do you want done?</p></article>
+        <article class="card c3"><h3>C: Context</h3><p>Who is it for? What should it know?</p></article>
+        <article class="card c4"><h3>F: Format</h3><p>Length, tone, list or paragraph?</p></article>
       </div>
+      <div class="compare">
+        <div class="bad"><strong>Weak</strong><p>Write about healthy eating.</p></div>
+        <div class="good"><strong>Strong</strong><p id="try-prompt">You are a friendly nutritionist. Write a 5-point guide to healthy eating for busy office workers. Keep it simple, with no jargon, and end with one tip I can try today.</p></div>
+      </div>
+      <button type="button" class="btn btn-small" id="copy-btn">Copy the strong prompt</button>
+      <span id="copy-msg" class="note" role="status"></span>
+      <ul class="tips-list">
+        <li><strong>Give an example</strong> of what a good answer looks like.</li>
+        <li><strong>Ask for steps</strong> when the task is big. "First outline, then write."</li>
+        <li><strong>Improve it.</strong> Reply "shorter", "simpler" or "more formal" until it fits.</li>
+        <li><strong>Start a fresh chat</strong> for a new topic.</li>
+      </ul>
+    </section>
+
+    <section id="pitfalls">
+      <h2><span class="num n5">5</span> Pitfalls to avoid</h2>
+      <div class="grid">
+        <article class="card warn"><h3>It makes things up</h3><p>It can sound sure and be wrong. Check facts, numbers and names.</p></article>
+        <article class="card warn"><h3>Privacy</h3><p>Never share passwords, bank details or ID numbers.</p></article>
+        <article class="card warn"><h3>Bias</h3><p>It learned from human writing, so it can repeat unfair views.</p></article>
+        <article class="card warn"><h3>Ownership</h3><p>Check the tool's rules before you use AI work commercially.</p></article>
+        <article class="card warn"><h3>Fakes and scams</h3><p>AI can fake voices, photos and messages. Verify before you trust.</p></article>
+        <article class="card warn"><h3>Over-reliance</h3><p>Use it as a helper. You make the final decision.</p></article>
+      </div>
+    </section>
+
+    <section id="agents">
+      <h2><span class="num n6">6</span> Next step: automation and agents</h2>
+      <p>AI becomes more useful when it is connected to your other tools. An automation is a chain of steps that runs by itself. An AI agent is an AI step that can decide what to do next, and you stay in charge by approving the important actions.</p>
+      <div class="flow" aria-label="A simple automation">
+        <span class="step s1">Trigger</span><span class="arrow" aria-hidden="true">&rarr;</span>
+        <span class="step s2">AI step</span><span class="arrow" aria-hidden="true">&rarr;</span>
+        <span class="step s3">Action</span>
+      </div>
+      <p class="note">Example: a new email arrives (trigger), AI summarises it (AI step), the summary is saved to a sheet (action).</p>
+    </section>
+
+    <!-- Core checklist: the 5 things to remember. -->
+    <section id="core" class="core">
+      <h2>The 5 basics to remember</h2>
+      <ol>
+        <li>AI predicts. It does not truly know.</li>
+        <li>Pick the type that matches your input and output.</li>
+        <li>Be clear: role, task, context, format.</li>
+        <li>Check anything important before you use it.</li>
+        <li>Keep private details out, and keep the final say.</li>
+      </ol>
     </section>
 
     <!-- "Latest tips" is filled in by script.js from content.json. n8n can change the site by editing that file. -->
@@ -118,21 +136,12 @@
       <div id="latest-tips" aria-live="polite"><p class="note">Loading tips...</p></div>
     </section>
 
-    <section id="faq">
-      <h2>Questions people ask</h2>
-      <details><summary>Is AI free to use?</summary><p>Many tools have a free plan with limits. Paid plans usually give more use. Check each tool's own page.</p></details>
-      <details><summary>Will AI take my job?</summary><p>Nobody can say for sure. A good habit is to learn how to use it, so it helps you rather than surprises you.</p></details>
-      <details><summary>Is it safe?</summary><p>It is safe if you are careful. Do not share private details, and check important answers.</p></details>
-      <details><summary>Do I need to be technical?</summary><p>No. If you can send a text message, you can use an AI chat.</p></details>
-      <details><summary>Which tool should I pick?</summary><p>Start with one from a well-known company. Try it for a week before you decide.</p></details>
-    </section>
-
     <!-- Feedback: one question, one box, one button. Sent to n8n (feedbackWebhook in config.js). -->
     <section id="feedback">
       <form id="feedback-form" novalidate>
         <label for="f-text">What should we explain next?</label>
-        <div style="display:flex;gap:.5rem">
-          <input id="f-text" name="feedback" type="text" maxlength="200" style="flex:1;min-width:0" required>
+        <div class="row">
+          <input id="f-text" name="feedback" type="text" maxlength="200" required>
           <button class="btn btn-small" type="submit">Send</button>
         </div>
         <div class="hp" aria-hidden="true"><label for="f-site">Leave this empty</label><input id="f-site" name="website" type="text" tabindex="-1" autocomplete="off"></div>

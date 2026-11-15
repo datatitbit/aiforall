@@ -1,11 +1,10 @@
 /* AIforAll script. Small jobs: load tips, send forms, copy the prompt. */
 
-// 1) Load "AI in brief" and "Latest tips" from content.json (n8n can edit that file to change the page).
+// 1) Load "Latest tips" from content.json (n8n can edit that file to change the page).
 fetch("content.json", { cache: "no-store" })
   .then(function (r) { return r.json(); })
   .then(function (data) {
     var box = document.getElementById("latest-tips");
-    renderBrief(data.brief);
     box.innerHTML = "";
     data.tips.forEach(function (tip) {
       var d = document.createElement("article");
@@ -21,18 +20,6 @@ fetch("content.json", { cache: "no-store" })
   .catch(function () {
     document.getElementById("latest-tips").innerHTML = '<p class="note">Tips could not load right now. Please try again later.</p>';
   });
-
-// 1b) Fill the "AI in brief" cards (quote, tip, everyday use case) from content.json -> "brief".
-function setText(id, value) { var el = document.getElementById(id); if (el) { el.textContent = value || ""; } }
-function renderBrief(t) {
-  if (!t) { return; }
-  setText("quote-text", t.quote && t.quote.text);
-  setText("quote-who", t.quote && t.quote.author ? "By " + t.quote.author : "");
-  setText("tip-title", t.tip && t.tip.title);
-  setText("tip-text", t.tip && t.tip.text);
-  setText("usecase-title", t.useCase && t.useCase.title);
-  setText("usecase-text", t.useCase && t.useCase.text);
-}
 
 // 2) Send a form as JSON to an n8n webhook (a webhook is a web address n8n listens on).
 function wireForm(formId, msgId, urlKey, needs) {
@@ -67,12 +54,15 @@ function wireForm(formId, msgId, urlKey, needs) {
 wireForm("signup-form", "signup-msg", "signupWebhook", "email");
 wireForm("feedback-form", "feedback-msg", "feedbackWebhook", "feedback");
 
-// 3) Copy the "Try this now" prompt.
-document.getElementById("copy-btn").addEventListener("click", function () {
-  var text = document.getElementById("try-prompt").textContent;
-  var msg = document.getElementById("copy-msg");
-  if (navigator.clipboard) {
-    navigator.clipboard.writeText(text).then(function () { msg.textContent = " Copied."; },
-      function () { msg.textContent = " Please select and copy it by hand."; });
-  } else { msg.textContent = " Please select and copy it by hand."; }
-});
+// 3) Copy the strong example prompt.
+var copyBtn = document.getElementById("copy-btn");
+if (copyBtn) {
+  copyBtn.addEventListener("click", function () {
+    var text = document.getElementById("try-prompt").textContent;
+    var msg = document.getElementById("copy-msg");
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(function () { msg.textContent = " Copied."; },
+        function () { msg.textContent = " Please select and copy it by hand."; });
+    } else { msg.textContent = " Please select and copy it by hand."; }
+  });
+}
