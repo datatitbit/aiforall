@@ -1,0 +1,9 @@
+/* Announcement banner (loaded by script.js only when status.json has announcement.active = true).
+   Uses the colours already defined in styles.css. */
+.announce { display: flex; align-items: center; justify-content: center; gap: .8rem; padding: .55rem 1rem; color: #fff; background: var(--indigo); font-size: .98rem; }
+.announce-warning { background: var(--amber); color: var(--ink); }
+.announce-success { background: var(--green); }
+.announce-text { margin: 0; text-align: center; }
+.announce a { color: inherit; font-weight: 700; text-decoration: underline; }
+.announce-close { flex: none; background: transparent; color: inherit; border: 2px solid currentColor; border-radius: 8px; width: 2rem; height: 2rem; line-height: 1; font-size: 1.2rem; cursor: pointer; }
+.announce-close:hover { background: rgba(255,255,255,.2); }

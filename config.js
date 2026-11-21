@@ -1,14 +1,17 @@
 /*
   config.js: the ONE place to change settings.
-  These are the n8n webhook addresses the forms send to (signup and feedback).
-  - Test address: works only while you click "Listen for test event" in n8n.
-  - Production address: works after you switch the workflow to Active.
-  IMPORTANT: "localhost" means "this computer". The forms reach n8n only when you open
-  this page on the SAME computer that runs n8n. Other visitors cannot reach your localhost,
-  unless you set up a tunnel (for example Cloudflare Tunnel).
-  Change /webhook-test/ to /webhook/ when the workflow is Active.
+  These are the n8n webhook addresses the two forms send to:
+  - NEWSLETTER_WEBHOOK_URL: the "Join free" signup form.
+  - SUGGESTION_WEBHOOK_URL: the "What should we explain next?" box.
+  Replace YOUR-N8N-DOMAIN with the public address of your n8n (for example n8n.example.com).
+  - Test address: /webhook-test/... works only while you click "Listen for test event" in n8n.
+  - Production address: /webhook/... works after you switch the workflow to Active.
+  In the n8n Webhook node, open Options > Allowed Origins (CORS) and add this site's address,
+  otherwise the browser blocks the send.
+  Each send is JSON: { name, email, suggestion, source, submitted_at }.
+  Until you replace the placeholders, the forms show a polite "not connected yet" message.
 */
 window.AIFORALL_CONFIG = {
-  signupWebhook:   "http://localhost:5678/webhook-test/aiforall-signup",
-  feedbackWebhook: "http://localhost:5678/webhook-test/aiforall-feedback"
+  NEWSLETTER_WEBHOOK_URL: "https://YOUR-N8N-DOMAIN/webhook/aiforall-newsletter",
+  SUGGESTION_WEBHOOK_URL: "https://YOUR-N8N-DOMAIN/webhook/aiforall-suggestion"
 };

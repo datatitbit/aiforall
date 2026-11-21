@@ -1,1 +1,13 @@
-{ "site": "AIforAll", "status": "ok", "updated": "2026-11-15" }
+{
+  "site": "AIforAll",
+  "status": "ok",
+  "updated": "2026-11-21",
+  "announcement": {
+    "active": false,
+    "id": "2026-11-21-welcome",
+    "type": "info",
+    "message": "",
+    "link_text": "",
+    "link_url": ""
+  }
+}
