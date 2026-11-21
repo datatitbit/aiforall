@@ -1,0 +1,493 @@
+%PDF-1.4
+%ASCI ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author (AIforAll \(Simple Titbit\)) /CreationDate (D:20000101000000+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (Free one-page guide) /Title (AI Prompt Cheat Sheet) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Length 8250
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.294118 .294118 .388235 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (AIforAll - a Simple Titbit project - aiforall-a117.onrender.com) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 1) Tj T* ET
+.960784 .619608 .043137 RG
+1.5 w
+n 51.02362 39.68504 m 544.252 39.68504 l S
+Q
+q
+1 0 0 1 51.02362 733.2047 cm
+q
+.262745 .219608 .792157 rg
+n 0 69 493.2283 -69 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 32 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 4 Tm /F2 21 Tf 25 TL (AI Prompt Cheat Sheet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 12 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.5 Tm /F1 10.5 Tf 14 TL (One page. Better questions get better answers.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.960784 .619608 .043137 RG
+4 w
+n 0 0 m 493.2283 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 725.2047 cm
+Q
+q
+1 0 0 1 51.02362 701.2047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (The formula: R-T-C-F) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 643.4047 cm
+q
+.933333 .941176 1 rg
+n 0 53.8 493.2283 -20.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 37.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (R - Role) Tj T* ET
+Q
+Q
+q
+1 0 0 1 129.3071 37.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (T - Task) Tj T* ET
+Q
+Q
+q
+1 0 0 1 252.6142 37.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (C - Context) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.9213 37.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (F - Format) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 16.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Who should it act as?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 129.3071 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 15.6 Tm /F1 9.6 Tf 12.6 TL (What exactly should it) Tj T* (do?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 252.6142 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 15.6 Tm /F1 9.6 Tf 12.6 TL (Who is it for? What) Tj T* (should it know?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.9213 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 15.6 Tm /F1 9.6 Tf 12.6 TL (Length, tone, list or) Tj T* (paragraph?) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.905882 .886275 .85098 RG
+.6 w
+n 0 53.8 m 493.2283 53.8 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 53.8 l S
+n 493.2283 0 m 493.2283 53.8 l S
+n 0 33.2 m 493.2283 33.2 l S
+n 123.3071 0 m 123.3071 53.8 l S
+n 246.6142 0 m 246.6142 53.8 l S
+n 369.9213 0 m 369.9213 53.8 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 637.4047 cm
+Q
+q
+1 0 0 1 51.02362 583.6047 cm
+q
+.996078 .952941 .85098 rg
+n 0 53.8 493.2283 -20.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 37.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (Weak) Tj T* ET
+Q
+Q
+q
+1 0 0 1 153.9685 37.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (Strong) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 16.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Write about healthy eating.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 153.9685 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 15.6 Tm /F1 9.6 Tf 12.6 TL (You are a friendly nutritionist. Write a 5-point guide to healthy eating for busy) Tj T* (office workers. Keep it simple, no jargon, and end with one tip I can try today.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.905882 .886275 .85098 RG
+.6 w
+n 0 53.8 m 493.2283 53.8 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 53.8 l S
+n 493.2283 0 m 493.2283 53.8 l S
+n 0 33.2 m 493.2283 33.2 l S
+n 147.9685 0 m 147.9685 53.8 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 559.6047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (8 fill-in templates) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 390.8047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 148.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Email:) Tj /F1 9.6 Tf ( Write a [polite/firm/friendly] email to [person] about [topic]. Keep it under [number] words.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 127.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Summary:) Tj /F1 9.6 Tf ( Summarise this in [number] bullet points for [audience]: [text]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 107 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Explain:) Tj /F1 9.6 Tf ( Explain [topic] as if I am [age or level]. Use one everyday example.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 86.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Plan:) Tj /F1 9.6 Tf ( Make a [number]-day plan to [goal]. I have [time] per day. Show it as a table.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Compare:) Tj /F1 9.6 Tf ( Compare [A] and [B] for [purpose] in a table with pros, cons and a one-line verdict.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Brainstorm:) Tj /F1 9.6 Tf ( Give me [number] ideas for [goal]. Mix safe and creative ones.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 24.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Rewrite:) Tj /F1 9.6 Tf ( Rewrite this to be [shorter/simpler/more formal]. Keep the meaning: [text]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Check:) Tj /F1 9.6 Tf ( Read my text. List unclear parts and possible mistakes. Do not rewrite it yet: [text]) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.905882 .886275 .85098 RG
+.6 w
+n 0 164.8 m 493.2283 164.8 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 164.8 l S
+n 493.2283 0 m 493.2283 164.8 l S
+n 0 144.2 m 493.2283 144.2 l S
+n 0 123.6 m 493.2283 123.6 l S
+n 0 103 m 493.2283 103 l S
+n 0 82.4 m 493.2283 82.4 l S
+n 0 61.8 m 493.2283 61.8 l S
+n 0 41.2 m 493.2283 41.2 l S
+n 0 20.6 m 493.2283 20.6 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 366.8047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Follow-up phrases that work) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 284.8047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 2 63.9 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 63.9 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL ("Shorter." "Simpler." "More formal." "More friendly.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 48.3 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 48.3 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL ("Give me 3 different versions.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 32.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 32.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL ("Explain your steps first, then give the answer.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 17.1 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 17.1 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL ("What information do you still need from me?") Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL ("What could be wrong or missing in your answer?") Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 260.8047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Good habits) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 194.4047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 2 48.3 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 48.3 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Give an example of what a good answer looks like.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 32.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 32.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Ask for steps when the task is big: "First an outline, then the draft.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 17.1 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 17.1 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Start a fresh chat for a new topic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Check facts, numbers and names. Keep private details out.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+ 
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000524 00000 n 
+0000000592 00000 n 
+0000000897 00000 n 
+0000000956 00000 n 
+trailer
+<<
+/ID 
+[<18880620edf866e21a0fdb4923b2abab><18880620edf866e21a0fdb4923b2abab>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
+startxref
+9257
+%%EOF

@@ -1,0 +1,754 @@
+%PDF-1.4
+%ASCI ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (AIforAll \(Simple Titbit\)) /CreationDate (D:20000101000000+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (Free two-page guide) /Title (Your First n8n Automation) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
+<<
+/Length 9042
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.294118 .294118 .388235 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (AIforAll - a Simple Titbit project - aiforall-a117.onrender.com) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 1) Tj T* ET
+.960784 .619608 .043137 RG
+1.5 w
+n 51.02362 39.68504 m 544.252 39.68504 l S
+Q
+q
+1 0 0 1 51.02362 733.2047 cm
+q
+.262745 .219608 .792157 rg
+n 0 69 493.2283 -69 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 32 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 4 Tm /F2 21 Tf 25 TL (Your First n8n Automation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 12 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.5 Tm /F1 10.5 Tf 14 TL (Five steps: from a web form to a row in a spreadsheet.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.960784 .619608 .043137 RG
+4 w
+n 0 0 m 493.2283 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 725.2047 cm
+Q
+q
+1 0 0 1 51.02362 701.2047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (What is n8n?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 656.4047 cm
+q
+BT 1 0 0 1 0 30.8 Tm 13.6 TL /F1 10 Tf .105882 .105882 .184314 rg (n8n is a tool for building automations. You connect small blocks, called ) Tj /F2 10 Tf (nodes) Tj /F1 10 Tf (, into a ) Tj /F2 10 Tf (workflow) Tj /F1 10 Tf (. When) Tj T* (something happens \(the ) Tj /F2 10 Tf (trigger) Tj /F1 10 Tf (\), the other nodes run by themselves. Menu names can differ a little between) Tj T* (n8n versions, so follow the idea, not the exact wording.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 528.8047 cm
+q
+.933333 .941176 1 rg
+n 0 123.6 493.2283 -20.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 107 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (Word) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 107 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (Plain meaning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 86.4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Trigger) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 86.4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (The event that starts the workflow \(a form, a schedule, a new email\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65.8 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Node) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 65.8 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (One step: read data, change it, or send it somewhere.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Webhook) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 45.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (A web address n8n listens on. Your page sends data to it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 24.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Credential) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 24.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (A saved login that lets n8n use your Google, email or AI account.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Execution) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (One run of the workflow. You can open it and see what happened.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.905882 .886275 .85098 RG
+.6 w
+n 0 123.6 m 493.2283 123.6 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 123.6 l S
+n 493.2283 0 m 493.2283 123.6 l S
+n 0 103 m 493.2283 103 l S
+n 0 82.4 m 493.2283 82.4 l S
+n 0 61.8 m 493.2283 61.8 l S
+n 0 41.2 m 493.2283 41.2 l S
+n 0 20.6 m 493.2283 20.6 l S
+n 85.03937 0 m 85.03937 123.6 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 504.8047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (The goal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 457.6047 cm
+q
+.890196 .964706 .952941 rg
+n 0 43.2 493.2283 -43.2 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 9 23.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3.6 Tm /F1 10 Tf 13.6 TL (A visitor sends a suggestion on your website. n8n receives it and adds a new row to a Google Sheet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 9 6 cm
+q
+BT 1 0 0 1 0 3.6 Tm 13.6 TL /F3 10 Tf .105882 .105882 .184314 rg (Webhook -) Tj (> Google Sheets \(Append row\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.058824 .462745 .431373 RG
+1 w
+n 0 43.2 m 493.2283 43.2 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 43.2 l S
+n 493.2283 0 m 493.2283 43.2 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 433.6047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Step 1: Open n8n and start a workflow) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 402.4047 cm
+q
+BT 1 0 0 1 0 17.2 Tm 13.6 TL /F1 10 Tf .105882 .105882 .184314 rg (Open your n8n \(n8n Cloud, or one you run yourself\). Click ) Tj /F2 10 Tf (Create workflow) Tj /F1 10 Tf ( and give it a name, for example) Tj T* ("Suggestion box".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 378.4047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Step 2: Add the Webhook trigger) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 315.0047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 2 45.3 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 45.3 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (Add a ) Tj /F2 9.6 Tf (Webhook) Tj /F1 9.6 Tf ( node. Set the method to ) Tj /F2 9.6 Tf (POST) Tj /F1 9.6 Tf ( and choose a path, for example ) Tj /F3 9.6 Tf (suggestion) Tj /F1 9.6 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 29.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 17.1 cm
+q
+BT 1 0 0 1 0 15.6 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (The node shows two addresses: a ) Tj /F2 9.6 Tf (Test URL) Tj /F1 9.6 Tf ( and a ) Tj /F2 9.6 Tf (Production URL) Tj /F1 9.6 Tf (. The Test URL works only while the) Tj T* (node is listening.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 1.5 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (Click ) Tj /F2 9.6 Tf (Listen for test event) Tj /F1 9.6 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 291.0047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Step 3: Send a test message) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 259.8047 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 17.2 Tm /F1 10 Tf 13.6 TL (From a terminal, or any tool that can send a POST request, send this sample with your Test URL. On Windows,) Tj T* (put the command on one line.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 209.3047 cm
+q
+.956863 .956863 .972549 rg
+n 0 46.5 493.2283 -46.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 9 29 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 2.7 Tm /F3 8.8 Tf 11.5 TL (curl -X POST YOUR-TEST-URL -H "Content-Type: application/json" \\) Tj T* ET
+Q
+Q
+q
+1 0 0 1 9 17.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 2.7 Tm /F3 8.8 Tf 11.5 TL (-d '{"name":"Ama","email":"ama@example.com","suggestion":"Explain prompts",) Tj T* ET
+Q
+Q
+q
+1 0 0 1 9 6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 2.7 Tm /F3 8.8 Tf 11.5 TL ("source":"suggestion","submitted_at":"2026-11-21T10:00:00Z"}') Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.905882 .886275 .85098 RG
+1 w
+n 0 46.5 m 493.2283 46.5 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 46.5 l S
+n 493.2283 0 m 493.2283 46.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 206.3047 cm
+Q
+q
+1 0 0 1 51.02362 179.1047 cm
+q
+BT 1 0 0 1 0 17.2 Tm 13.6 TL /F1 10 Tf .105882 .105882 .184314 rg (n8n shows the data it received. Your fields sit inside ) Tj /F3 10 Tf (body) Tj /F1 10 Tf (, so the email is ) Tj /F3 10 Tf ({{ $json.body.email }}) Tj /F1 10 Tf (.) Tj T* (Learning to read this panel is half of learning n8n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 155.1047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Step 4: Add Google Sheets) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 63.50472 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 2 73.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 73.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Make a Google Sheet with the headers: name, email, suggestion, source, submitted_at.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 57.9 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 45.3 cm
+q
+BT 1 0 0 1 0 15.6 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (In n8n add a ) Tj /F2 9.6 Tf (Google Sheets) Tj /F1 9.6 Tf ( node and choose ) Tj /F2 9.6 Tf (Append row) Tj /F1 9.6 Tf (. Connect your Google account \(this creates a) Tj T* (credential\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 29.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 17.1 cm
+q
+BT 1 0 0 1 0 15.6 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (Pick your sheet, then map each column to the matching field, for example ) Tj /F3 9.6 Tf ({{ $json.body.suggestion) Tj T* (}}) Tj /F1 9.6 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 1.5 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (Click ) Tj /F2 9.6 Tf (Execute step) Tj /F1 9.6 Tf (. A new row should appear in your sheet.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+ 
+endstream
+endobj
+11 0 obj
+<<
+/Length 5332
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.294118 .294118 .388235 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (AIforAll - a Simple Titbit project - aiforall-a117.onrender.com) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 2) Tj T* ET
+.960784 .619608 .043137 RG
+1.5 w
+n 51.02362 39.68504 m 544.252 39.68504 l S
+Q
+q
+1 0 0 1 51.02362 786.2047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Step 5: Make it live) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 719.8047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 2 48.3 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 48.3 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (Switch the workflow to ) Tj /F2 9.6 Tf (Active) Tj /F1 9.6 Tf (. Now the ) Tj /F2 9.6 Tf (Production URL) Tj /F1 9.6 Tf ( works all the time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 32.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 32.7 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (Put the Production URL in the website file ) Tj /F3 9.6 Tf (config.js) Tj /F1 9.6 Tf ( \(SUGGESTION_WEBHOOK_URL\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 17.1 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 17.1 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (In the Webhook node, open ) Tj /F2 9.6 Tf (Options) Tj /F1 9.6 Tf ( and add your site address under ) Tj /F2 9.6 Tf (Allowed Origins \(CORS\)) Tj /F1 9.6 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Send a real suggestion from the website and check that the row arrives.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 695.8047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (If something goes wrong) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 563.6047 cm
+q
+.933333 .941176 1 rg
+n 0 128.2 493.2283 -20.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 111.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 125.0551 111.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (Likely fix) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 91 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Nothing arrives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 125.0551 78.4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 15.6 Tm /F1 9.6 Tf 12.6 TL -0.100573 Tw (You used the Test URL while not listening. Use "Listen for test event", or switch to the) Tj T* 0 Tw (Production URL and make the workflow Active.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 57.8 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Browser blocks the send) Tj T* ET
+Q
+Q
+q
+1 0 0 1 125.0551 57.8 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Add your site address to Allowed Origins \(CORS\) in the Webhook node.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 37.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Empty cells in the sheet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 125.0551 37.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Check the expression. Webhook data is under body, so use $json.body.fieldname.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 15.6 Tm /F1 9.6 Tf 12.6 TL (Google asks to sign in) Tj T* (again) Tj T* ET
+Q
+Q
+q
+1 0 0 1 125.0551 16.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Reconnect the credential in the Google Sheets node.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.905882 .886275 .85098 RG
+.6 w
+n 0 128.2 m 493.2283 128.2 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 128.2 l S
+n 493.2283 0 m 493.2283 128.2 l S
+n 0 107.6 m 493.2283 107.6 l S
+n 0 74.4 m 493.2283 74.4 l S
+n 0 53.8 m 493.2283 53.8 l S
+n 0 33.2 m 493.2283 33.2 l S
+n 119.0551 0 m 119.0551 128.2 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 539.6047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Next ideas) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 473.2047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 2 48.3 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 48.3 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (Add a ) Tj /F2 9.6 Tf (Gmail) Tj /F1 9.6 Tf ( node to email yourself each new suggestion.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 32.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 32.7 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (Add an ) Tj /F2 9.6 Tf (AI) Tj /F1 9.6 Tf ( node to tag each suggestion by topic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 17.1 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 17.1 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F1 9.6 Tf .105882 .105882 .184314 rg (Add an ) Tj /F2 9.6 Tf (Error Trigger) Tj /F1 9.6 Tf ( workflow that warns you when something fails.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Never put passwords or API keys in website files. Keep them in n8n credentials.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+ 
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000436 00000 n 
+0000000640 00000 n 
+0000000844 00000 n 
+0000000912 00000 n 
+0000001221 00000 n 
+0000001286 00000 n 
+0000010380 00000 n 
+trailer
+<<
+/ID 
+[<faf08fb5019a697e5e56235f9347f996><faf08fb5019a697e5e56235f9347f996>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 12
+>>
+startxref
+15764
+%%EOF

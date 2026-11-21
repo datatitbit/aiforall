@@ -13,5 +13,7 @@
 */
 window.AIFORALL_CONFIG = {
   NEWSLETTER_WEBHOOK_URL: "https://YOUR-N8N-DOMAIN/webhook/aiforall-newsletter",
-  SUGGESTION_WEBHOOK_URL: "https://YOUR-N8N-DOMAIN/webhook/aiforall-suggestion"
+  SUGGESTION_WEBHOOK_URL: "https://YOUR-N8N-DOMAIN/webhook/aiforall-suggestion",
+  // Free gift shown right after a successful signup. The file must be inside the downloads folder.
+  WELCOME_GIFT: { title: "Starter Guide", file: "downloads/aiforall-starter-guide.pdf" }
 };

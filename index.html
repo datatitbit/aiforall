@@ -10,6 +10,7 @@
   <meta property="og:type" content="website">
   <link rel="alternate" type="application/rss+xml" title="AIforAll tips" href="feed.xml">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="sections.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -31,6 +32,9 @@
         <li><a href="#prompting">Prompting</a></li>
         <li><a href="#pitfalls">Pitfalls</a></li>
         <li><a href="#agents">Automation</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#downloads">Free guides</a></li>
+        <li><a href="#recipes">Recipes</a></li>
       </ul>
     </section>
 
@@ -130,6 +134,27 @@
       </ol>
     </section>
 
+    <!-- Latest AI news: filled in by script.js from news.json. n8n can add items to that file. -->
+    <section id="news">
+      <h2>Latest AI news</h2>
+      <p class="note">Short summaries with a link to the original source. Always check the source yourself.</p>
+      <div id="latest-news" aria-live="polite"><p class="note">Loading news...</p></div>
+    </section>
+
+    <!-- Free guides: filled in by script.js from downloads.json. The PDF files live in the downloads folder. -->
+    <section id="downloads">
+      <h2>Free guides to download</h2>
+      <p>Short PDFs, one or two pages each. No sign-up needed.</p>
+      <div id="download-list" class="grid" aria-live="polite"><p class="note">Loading guides...</p></div>
+    </section>
+
+    <!-- Automation recipes: filled in by script.js from recipes.json. A learning log of workflows we practise. -->
+    <section id="recipes">
+      <h2>Automation recipes</h2>
+      <p>A simple log of the n8n workflows and AI agents we practise here. Each recipe shows the steps and what it teaches.</p>
+      <div id="recipe-list" class="grid" aria-live="polite"><p class="note">Loading recipes...</p></div>
+    </section>
+
     <!-- "Latest tips" is filled in by script.js from content.json. n8n can change the site by editing that file. -->
     <section id="tips">
       <h2>Latest tips</h2>
@@ -151,7 +176,7 @@
 
     <section id="signup" class="signup">
       <h2>Join free</h2>
-      <p>Get simple AI tips by email from Simple Titbit.</p>
+      <p>Get simple AI tips by email from Simple Titbit. Join and get a free Starter Guide (PDF).</p>
       <form id="signup-form" novalidate>
         <label for="s-name">Name (optional)</label>
         <input id="s-name" name="name" type="text" autocomplete="given-name">
@@ -161,6 +186,8 @@
         <div class="hp" aria-hidden="true"><label for="s-site">Leave this empty</label><input id="s-site" name="website" type="text" tabindex="-1" autocomplete="off"></div>
         <button class="btn btn-big" type="submit">Join free</button>
         <p class="note" id="signup-msg" role="status"></p>
+        <!-- Welcome gift: shown by script.js only after a successful signup. -->
+        <p class="gift" id="signup-gift" hidden><strong>Your free gift:</strong> <a class="btn btn-small" id="signup-gift-link" href="downloads/aiforall-starter-guide.pdf" download>Download the Starter Guide (PDF)</a></p>
       </form>
     </section>
   </main>

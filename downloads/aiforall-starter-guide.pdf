@@ -1,0 +1,729 @@
+%PDF-1.4
+%ASCI ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+>>
+endobj
+7 0 obj
+<<
+/Author (AIforAll \(Simple Titbit\)) /CreationDate (D:20000101000000+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (Welcome gift) /Title (AIforAll Starter Guide) /Trapped /False
+>>
+endobj
+8 0 obj
+<<
+/Count 2 /Kids [ 4 0 R 5 0 R ] /Type /Pages
+>>
+endobj
+9 0 obj
+<<
+/Length 6794
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.294118 .294118 .388235 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (AIforAll - a Simple Titbit project - aiforall-a117.onrender.com) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 1) Tj T* ET
+.960784 .619608 .043137 RG
+1.5 w
+n 51.02362 39.68504 m 544.252 39.68504 l S
+Q
+q
+1 0 0 1 51.02362 733.2047 cm
+q
+.262745 .219608 .792157 rg
+n 0 69 493.2283 -69 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 12 32 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 4 Tm /F2 21 Tf 25 TL (AIforAll Starter Guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 12 12 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.5 Tm /F1 10.5 Tf 14 TL (Welcome! Your first 5 steps with AI, in plain English.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.960784 .619608 .043137 RG
+4 w
+n 0 0 m 493.2283 0 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 725.2047 cm
+Q
+q
+1 0 0 1 51.02362 698.0047 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 17.2 Tm /F1 10 Tf 13.6 TL (Thank you for joining AIforAll. This short guide gives you the core basics and five prompts to try today. No) Tj T* (jargon, no pressure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 674.0047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (What is AI?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 629.2047 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 30.8 Tm /F1 10 Tf 13.6 TL (AI \(artificial intelligence\) is a computer program that learned patterns from a huge amount of text, pictures,) Tj T* (sound and data. You give it an input and it predicts a useful output. Think of a very well-read helper. It does not) Tj T* ("know" things like a person does. It makes a smart guess, which is why you still check the result.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 584.0047 cm
+q
+.933333 .941176 1 rg
+n 0 41.2 493.2283 -20.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 24.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (You ask) Tj T* ET
+Q
+Q
+q
+1 0 0 1 170.4094 24.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (AI predicts) Tj T* ET
+Q
+Q
+q
+1 0 0 1 334.8189 24.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (You check) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Type a clear request.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 170.4094 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (It writes a draft or an answer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 334.8189 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (You fix, confirm and decide.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.905882 .886275 .85098 RG
+.6 w
+n 0 41.2 m 493.2283 41.2 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 41.2 l S
+n 493.2283 0 m 493.2283 41.2 l S
+n 0 20.6 m 493.2283 20.6 l S
+n 164.4094 0 m 164.4094 41.2 l S
+n 328.8189 0 m 328.8189 41.2 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 560.0047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (The 5 basics to remember) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 478.0047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 2 63.9 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (1.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 63.9 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (AI predicts. It does not truly know.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 48.3 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 48.3 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Pick the type that matches your input and output \(text, image, audio, video, prediction\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 32.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (3.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 32.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Be clear: give a role, a task, some context and a format.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 17.1 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (4.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 17.1 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Check anything important before you use it, especially facts, numbers, money, health and legal topics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (5.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Keep private details out, and keep the final say.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 454.0047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (How to ask well: R-T-C-F) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 347.0047 cm
+q
+.933333 .941176 1 rg
+n 0 103 493.2283 -20.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 86.4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (Letter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.37008 86.4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (Means) Tj T* ET
+Q
+Q
+q
+1 0 0 1 261.1181 86.4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (Example) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65.8 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (R - Role) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.37008 65.8 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Who should it act as?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 261.1181 65.8 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (You are a friendly nutritionist.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 45.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (T - Task) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.37008 45.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (What exactly do you want?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 261.1181 45.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Write a 5-point guide to healthy eating.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 24.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (C - Context) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.37008 24.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Who is it for? What should it know?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 261.1181 24.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (For busy office workers, no jargon.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (F - Format) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.37008 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Length, tone, list or paragraph?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 261.1181 4 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Short, friendly, end with one tip.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.905882 .886275 .85098 RG
+.6 w
+n 0 103 m 493.2283 103 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 103 l S
+n 493.2283 0 m 493.2283 103 l S
+n 0 82.4 m 493.2283 82.4 l S
+n 0 61.8 m 493.2283 61.8 l S
+n 0 41.2 m 493.2283 41.2 l S
+n 0 20.6 m 493.2283 20.6 l S
+n 79.37008 0 m 79.37008 103 l S
+n 255.1181 0 m 255.1181 103 l S
+Q
+Q
+Q
+ 
+endstream
+endobj
+10 0 obj
+<<
+/Length 5702
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.294118 .294118 .388235 rg
+BT 1 0 0 1 51.02362 28.34646 Tm (AIforAll - a Simple Titbit project - aiforall-a117.onrender.com) Tj T* ET
+BT 1 0 0 1 518.9 28.34646 Tm (Page 2) Tj T* ET
+.960784 .619608 .043137 RG
+1.5 w
+n 51.02362 39.68504 m 544.252 39.68504 l S
+Q
+q
+1 0 0 1 51.02362 786.2047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Five starter prompts to copy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 770.6047 cm
+q
+.294118 .294118 .388235 rg
+BT 1 0 0 1 0 2.8 Tm /F1 8.8 Tf 11.6 TL (Paste any of these into your favourite AI tool. Replace the words in [brackets].) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 715.4047 cm
+q
+.996078 .952941 .85098 rg
+n 0 51.2 493.2283 -51.2 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 9 32.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (1. Make an email calmer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 9 6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 15.6 Tm /F1 9.6 Tf 12.6 TL (You are a polite assistant. Rewrite my message below so it is calm, clear and kind. Keep it under 120 words.) Tj T* (Message: [paste your message]) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.960784 .619608 .043137 RG
+1 w
+n 0 51.2 m 493.2283 51.2 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 51.2 l S
+n 493.2283 0 m 493.2283 51.2 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 710.4047 cm
+Q
+q
+1 0 0 1 51.02362 671.8047 cm
+q
+.996078 .952941 .85098 rg
+n 0 38.6 493.2283 -38.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 9 19.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (2. Explain something simply) Tj T* ET
+Q
+Q
+q
+1 0 0 1 9 6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Explain [topic] to a ten-year-old in 5 short sentences. Then give me one real-life example.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.960784 .619608 .043137 RG
+1 w
+n 0 38.6 m 493.2283 38.6 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 38.6 l S
+n 493.2283 0 m 493.2283 38.6 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 666.8047 cm
+Q
+q
+1 0 0 1 51.02362 628.2047 cm
+q
+.996078 .952941 .85098 rg
+n 0 38.6 493.2283 -38.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 9 19.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (3. Plan your week) Tj T* ET
+Q
+Q
+q
+1 0 0 1 9 6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Help me plan my week. I have [list tasks]. I have [hours] free each day. Give me a simple table by day.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.960784 .619608 .043137 RG
+1 w
+n 0 38.6 m 493.2283 38.6 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 38.6 l S
+n 493.2283 0 m 493.2283 38.6 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 623.2047 cm
+Q
+q
+1 0 0 1 51.02362 572.0047 cm
+q
+.996078 .952941 .85098 rg
+n 0 51.2 493.2283 -51.2 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 9 32.2 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (4. Summarise a long text) Tj T* ET
+Q
+Q
+q
+1 0 0 1 9 6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 15.6 Tm /F1 9.6 Tf 12.6 TL (Summarise the text below in 5 bullet points for someone in a hurry. Then list any numbers or dates I should) Tj T* (double-check. Text: [paste text]) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.960784 .619608 .043137 RG
+1 w
+n 0 51.2 m 493.2283 51.2 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 51.2 l S
+n 493.2283 0 m 493.2283 51.2 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 567.0047 cm
+Q
+q
+1 0 0 1 51.02362 528.4047 cm
+q
+.996078 .952941 .85098 rg
+n 0 38.6 493.2283 -38.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 9 19.6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 2.5 Tm /F2 10.5 Tf 13 TL (5. Learn by quiz) Tj T* ET
+Q
+Q
+q
+1 0 0 1 9 6 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F1 9.6 Tf 12.6 TL (Quiz me on [topic], one question at a time. Wait for my answer, tell me if I am right, and explain briefly.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.960784 .619608 .043137 RG
+1 w
+n 0 38.6 m 493.2283 38.6 l S
+n 0 0 m 493.2283 0 l S
+n 0 0 m 0 38.6 l S
+n 493.2283 0 m 493.2283 38.6 l S
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 523.4047 cm
+Q
+q
+1 0 0 1 51.02362 499.4047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Three safety rules) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 448.6047 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 2 32.7 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 32.7 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Never share) Tj /F1 9.6 Tf ( passwords, bank details or ID numbers with an AI tool.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 17.1 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 17.1 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Check before you trust.) Tj /F1 9.6 Tf ( AI can sound sure and still be wrong.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 2 1.5 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 3 Tm /F2 9.6 Tf 12.6 TL (-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 24.67717 1.5 cm
+q
+BT 1 0 0 1 0 3 Tm 12.6 TL /F2 9.6 Tf .105882 .105882 .184314 rg (Verify scams.) Tj /F1 9.6 Tf ( AI can fake voices, photos and messages. Confirm with the real person another way.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 51.02362 424.6047 cm
+q
+.262745 .219608 .792157 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (Your next step) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 379.8047 cm
+q
+.105882 .105882 .184314 rg
+BT 1 0 0 1 0 30.8 Tm /F1 10 Tf 13.6 TL (Try one prompt today. Then visit the AIforAll website to see the latest tips and AI news, and download the free) Tj T* (Prompt Cheat Sheet. When you are ready, look at the Automation recipes section: AI becomes more useful) Tj T* (when it is connected to your other tools.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 371.8047 cm
+Q
+q
+1 0 0 1 51.02362 360.2047 cm
+q
+.294118 .294118 .388235 rg
+BT 1 0 0 1 0 2.8 Tm /F1 8.8 Tf 11.6 TL (This guide is general information only.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000524 00000 n 
+0000000728 00000 n 
+0000000796 00000 n 
+0000001095 00000 n 
+0000001160 00000 n 
+0000008005 00000 n 
+trailer
+<<
+/ID 
+[<f5436c757101b5080638baec7987f5ee><f5436c757101b5080638baec7987f5ee>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 7 0 R
+/Root 6 0 R
+/Size 11
+>>
+startxref
+13759
+%%EOF

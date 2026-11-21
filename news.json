@@ -1,0 +1,37 @@
+{
+  "updated": "2026-11-21",
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI reportedly releases two new models",
+      "summary": "A daily AI digest reports that OpenAI released two models, GPT-6.2 Astra and Sol, aimed at professional work and at lowering the cost of complex tasks. Check OpenAI's own announcement for the details.",
+      "source": "The Neuron",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-18-2026/",
+      "date": "2026-11-21"
+    },
+    {
+      "id": 2,
+      "title": "Meta pauses a planned terms change",
+      "summary": "The same digest says Meta paused, with no end date, an update to its business terms that was due on 20 November. The update would have let Meta scrape the websites of Meta Business account users.",
+      "source": "The Neuron",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-18-2026/",
+      "date": "2026-11-21"
+    },
+    {
+      "id": 3,
+      "title": "US asks Nvidia about advanced chips reaching China",
+      "summary": "AFP reporting says US Treasury Secretary Scott Bessent asked Nvidia on 15 November to explain whether it knowingly let its most advanced AI chips reach China.",
+      "source": "ActuIA (AFP)",
+      "url": "https://www.actuia.com/veille/2026-11-16/",
+      "date": "2026-11-21"
+    },
+    {
+      "id": 4,
+      "title": "ChatGPT search keeps growing, OpenAI says",
+      "summary": "A weekly AI roundup reports that OpenAI says ChatGPT search volume has reached about one-fifth of Google's. This is OpenAI's own claim, so treat it with care.",
+      "source": "MarketingProfs",
+      "url": "https://www.marketingprofs.com/opinions/2026/56258/ai-update-november-13-2026-ai-news-and-views-from-the-past-week",
+      "date": "2026-11-21"
+    }
+  ]
+}

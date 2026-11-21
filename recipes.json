@@ -1,0 +1,65 @@
+{
+  "updated": "2026-11-21",
+  "items": [
+    {
+      "id": 1,
+      "title": "Newsletter signup and welcome email",
+      "level": 1,
+      "status": "building",
+      "trigger": "Someone joins on the website",
+      "steps": ["Webhook", "Check email", "Add to Google Sheet", "Send welcome email"],
+      "tools": ["n8n", "Google Sheets", "Gmail"],
+      "learn": "Webhooks, IF checks and mapping data between nodes"
+    },
+    {
+      "id": 2,
+      "title": "Suggestion box to spreadsheet",
+      "level": 1,
+      "status": "building",
+      "trigger": "A visitor sends a suggestion",
+      "steps": ["Webhook", "Add to Google Sheet", "Notify me"],
+      "tools": ["n8n", "Google Sheets", "Telegram or Gmail"],
+      "learn": "Reading webhook data and sending notifications"
+    },
+    {
+      "id": 3,
+      "title": "Site health check",
+      "level": 1,
+      "status": "idea",
+      "trigger": "Every morning on a schedule",
+      "steps": ["Schedule", "Open the site", "Check the answer", "Alert me if it fails"],
+      "tools": ["n8n", "HTTP Request"],
+      "learn": "Schedules, HTTP requests and simple alerts"
+    },
+    {
+      "id": 4,
+      "title": "AI news digest",
+      "level": 2,
+      "status": "idea",
+      "trigger": "Every day on a schedule",
+      "steps": ["Read news feeds", "AI writes short summaries", "I approve", "Add to news.json"],
+      "tools": ["n8n", "RSS Read", "AI node", "GitHub"],
+      "learn": "RSS, AI prompts, human approval and committing files to GitHub"
+    },
+    {
+      "id": 5,
+      "title": "Tip of the week with approval",
+      "level": 2,
+      "status": "idea",
+      "trigger": "Every Monday on a schedule",
+      "steps": ["AI drafts a tip", "I approve by email", "Add to content.json"],
+      "tools": ["n8n", "AI node", "Gmail", "GitHub"],
+      "learn": "Wait and approval steps, and safe publishing"
+    },
+    {
+      "id": 6,
+      "title": "Ask-the-AI helper (first agent)",
+      "level": 3,
+      "status": "idea",
+      "trigger": "A visitor asks a question on the website",
+      "steps": ["Webhook", "AI agent uses tools and memory", "Send the answer back"],
+      "tools": ["n8n", "AI Agent node", "Respond to Webhook"],
+      "learn": "Agents, tools, memory and guardrails"
+    }
+  ]
+}

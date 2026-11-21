@@ -98,7 +98,98 @@ fetch(`./content.json?v=${Date.now()}`, { cache: "no-store" })
     if (box) { box.innerHTML = '<p class="note">Tips could not load right now. Please try again later.</p>'; }
   });
 
-// 3) Send a form as clean JSON to an n8n webhook (a webhook is a web address n8n listens on).
+// 3) News, free guides and recipes. Each one is filled from a JSON file, so n8n can update the page.
+function getJSON(path) {
+  return fetch(`./${path}?v=${Date.now()}`, { cache: "no-store" }).then(function (r) {
+    if (!r.ok) { throw new Error(path + " " + r.status); }
+    return r.json();
+  });
+}
+function listOf(data, key) {
+  return (Array.isArray(data && data[key]) ? data[key] : []).filter(function (i) { return i && i.title; });
+}
+function newestFirst(a, b) {
+  var byDate = String(b.date || "").localeCompare(String(a.date || ""));
+  return byDate !== 0 ? byDate : (Number(b.id) || 0) - (Number(a.id) || 0);
+}
+function failNote(id, text) {
+  var box = document.getElementById(id);
+  if (box) { box.innerHTML = '<p class="note">' + text + '</p>'; }
+}
+
+// 3a) Latest AI news (news.json): { items: [{ id, title, summary, source, url, date }] }
+getJSON("news.json").then(function (data) {
+  var box = document.getElementById("latest-news");
+  if (!box) { return; }
+  var items = listOf(data, "items").filter(function (i) { return i.summary; }).sort(newestFirst).slice(0, 8);
+  box.innerHTML = "";
+  if (!items.length) { failNote("latest-news", "No news yet. Please check back soon."); return; }
+  items.forEach(function (n) {
+    var d = document.createElement("article"); d.className = "tip";
+    if (n.id !== undefined && n.id !== null) { d.id = "news-" + n.id; }
+    var h = document.createElement("h3"); h.textContent = n.title;
+    var p = document.createElement("p"); p.textContent = n.summary;
+    d.appendChild(h); d.appendChild(p);
+    if (n.url && /^https?:\/\//i.test(n.url)) {
+      var s = document.createElement("a"); s.className = "news-src"; s.href = n.url;
+      s.target = "_blank"; s.rel = "noopener noreferrer";
+      s.textContent = "Read more at " + (n.source || "the source");
+      d.appendChild(s);
+    }
+    if (n.date) { var t = document.createElement("span"); t.className = "date"; t.textContent = "Added " + n.date; d.appendChild(t); }
+    box.appendChild(d);
+  });
+}).catch(function () { failNote("latest-news", "News could not load right now. Please try again later."); });
+
+// 3b) Free guides (downloads.json): { items: [{ id, title, description, pages, file }] }
+getJSON("downloads.json").then(function (data) {
+  var box = document.getElementById("download-list");
+  if (!box) { return; }
+  var items = listOf(data, "items").filter(function (i) { return /^downloads\/[\w.-]+$/.test(i.file || ""); });
+  box.innerHTML = "";
+  if (!items.length) { failNote("download-list", "No guides yet. Please check back soon."); return; }
+  items.forEach(function (g, idx) {
+    var c = document.createElement("article"); c.className = "card c" + ((idx % 6) + 1);
+    var h = document.createElement("h3"); h.textContent = g.title;
+    var p = document.createElement("p"); p.textContent = g.description || "";
+    var m = document.createElement("p"); m.className = "note";
+    m.textContent = "PDF" + (g.pages ? ", " + g.pages + (Number(g.pages) === 1 ? " page" : " pages") : "");
+    var a = document.createElement("a"); a.className = "btn btn-small"; a.href = g.file; a.setAttribute("download", "");
+    a.textContent = "Download";
+    c.appendChild(h); c.appendChild(p); c.appendChild(m); c.appendChild(a);
+    box.appendChild(c);
+  });
+}).catch(function () { failNote("download-list", "Guides could not load right now. Please try again later."); });
+
+// 3c) Automation recipes (recipes.json): { items: [{ id, title, level, status, trigger, steps[], tools[], learn }] }
+getJSON("recipes.json").then(function (data) {
+  var box = document.getElementById("recipe-list");
+  if (!box) { return; }
+  var items = listOf(data, "items");
+  box.innerHTML = "";
+  if (!items.length) { failNote("recipe-list", "No recipes yet. Please check back soon."); return; }
+  items.forEach(function (r, idx) {
+    var c = document.createElement("article"); c.className = "card c" + ((idx % 6) + 1);
+    var badges = document.createElement("p"); badges.className = "badges";
+    var lv = document.createElement("span"); lv.className = "badge"; lv.textContent = "Level " + (r.level || 1);
+    var status = ["idea", "building", "live"].indexOf(r.status) > -1 ? r.status : "idea";
+    var st = document.createElement("span"); st.className = "badge badge-" + status; st.textContent = status;
+    badges.appendChild(lv); badges.appendChild(st);
+    var h = document.createElement("h3"); h.textContent = r.title;
+    c.appendChild(badges); c.appendChild(h);
+    if (r.trigger) { var t = document.createElement("p"); t.textContent = "Starts when: " + r.trigger; c.appendChild(t); }
+    if (Array.isArray(r.steps) && r.steps.length) {
+      var f = document.createElement("p"); f.className = "recipe-flow"; f.textContent = r.steps.join("  \u2192  "); c.appendChild(f);
+    }
+    if (Array.isArray(r.tools) && r.tools.length) {
+      var tl = document.createElement("p"); tl.className = "note"; tl.textContent = "Tools: " + r.tools.join(", "); c.appendChild(tl);
+    }
+    if (r.learn) { var l = document.createElement("p"); l.className = "note"; l.textContent = "You learn: " + r.learn; c.appendChild(l); }
+    box.appendChild(c);
+  });
+}).catch(function () { failNote("recipe-list", "Recipes could not load right now. Please try again later."); });
+
+// 4) Send a form as clean JSON to an n8n webhook (a webhook is a web address n8n listens on).
 //    Every send has the same five fields: name, email, suggestion, source, submitted_at.
 function wireForm(opts) {
   var form = document.getElementById(opts.formId);
@@ -144,6 +235,7 @@ function wireForm(opts) {
     }).then(function (r) {
       if (!r.ok) { throw new Error("bad status"); }
       msg.className = "ok"; msg.textContent = opts.okText; form.reset();
+      if (opts.onSuccess) { opts.onSuccess(); }
     }).catch(function () {
       msg.className = "err";
       msg.textContent = "We could not send that right now. Please try again later.";
@@ -153,16 +245,27 @@ function wireForm(opts) {
     });
   });
 }
+// Show the free welcome gift (a PDF from the downloads folder) after a successful signup.
+function showGift() {
+  var gift = CFG.WELCOME_GIFT;
+  var box = document.getElementById("signup-gift");
+  var link = document.getElementById("signup-gift-link");
+  if (!gift || !box || !link || !/^downloads\/[\w.-]+$/.test(gift.file || "")) { return; }
+  link.href = gift.file;
+  link.textContent = "Download your free " + (gift.title || "guide") + " (PDF)";
+  box.hidden = false;
+}
 wireForm({
   formId: "signup-form", msgId: "signup-msg", urlKey: "NEWSLETTER_WEBHOOK_URL",
-  needs: "email", source: "newsletter", okText: "Thank you! You are on the list."
+  needs: "email", source: "newsletter", okText: "Thank you! You are on the list.",
+  onSuccess: showGift
 });
 wireForm({
   formId: "feedback-form", msgId: "feedback-msg", urlKey: "SUGGESTION_WEBHOOK_URL",
   needs: "feedback", source: "suggestion", okText: "Thank you! We got your suggestion."
 });
 
-// 4) Copy the strong example prompt.
+// 5) Copy the strong example prompt.
 var copyBtn = document.getElementById("copy-btn");
 if (copyBtn) {
   copyBtn.addEventListener("click", function () {

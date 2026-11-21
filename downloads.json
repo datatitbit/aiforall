@@ -1,0 +1,26 @@
+{
+  "updated": "2026-11-21",
+  "items": [
+    {
+      "id": 1,
+      "title": "AI Prompt Cheat Sheet",
+      "description": "The R-T-C-F formula, 8 fill-in templates and follow-up phrases that get better answers.",
+      "pages": 1,
+      "file": "downloads/prompt-cheat-sheet.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Check Before You Trust AI",
+      "description": "An 8-point safety checklist, what never to type into an AI tool, and signs of an AI scam.",
+      "pages": 1,
+      "file": "downloads/ai-safety-checklist.pdf"
+    },
+    {
+      "id": 3,
+      "title": "Your First n8n Automation",
+      "description": "Five simple steps from a web form to a new row in a Google Sheet, with fixes for common problems.",
+      "pages": 2,
+      "file": "downloads/first-n8n-automation.pdf"
+    }
+  ]
+}

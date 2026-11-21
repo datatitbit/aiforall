@@ -1,0 +1,19 @@
+/* Extra sections: AI news, free guides, automation recipes and the welcome gift.
+   Uses the colours already defined in styles.css. */
+#news .tip { border-left-color: var(--pink); }
+.news-src { display: block; font-size: .92rem; font-weight: 600; margin: .1rem 0 .3rem; }
+
+#download-list .card, #recipe-list .card { display: flex; flex-direction: column; gap: .4rem; }
+#download-list .btn { align-self: flex-start; margin-top: .3rem; }
+#download-list > .note, #recipe-list > .note { grid-column: 1 / -1; }
+
+.badges { display: flex; flex-wrap: wrap; gap: .35rem; }
+.badge { display: inline-block; font-size: .78rem; font-weight: 700; padding: .05rem .6rem; border: 2px solid var(--ink); border-radius: 99px; background: #fff; text-transform: capitalize; }
+.badge-idea { border-color: var(--sky); color: var(--sky); }
+.badge-building { border-color: var(--amber); color: #8A5A00; }
+.badge-live { border-color: var(--green); color: var(--green); }
+.recipe-flow { font-weight: 600; font-size: .92rem; }
+
+.gift { margin: .9rem 0 0; background: #fff; color: var(--ink); border-radius: 10px; padding: .6rem .8rem; }
+.gift[hidden] { display: none; }
+.signup .gift .btn { color: var(--ink); }
